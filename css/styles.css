@@ -1,3 +1,5 @@
+/* Base */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #2e2f42;
@@ -11,6 +13,14 @@ a {
 ul {
   list-style-type: none;
 }
+
+button {
+  font-family: inherit;
+}
+/* END Base */
+
+
+/* Header */
 
 .logo {
   font-family: 'Raleway';sans-serif;
@@ -31,7 +41,8 @@ ul {
     
 }
 
-.nav-link:hover {
+.nav-link:hover,
+ .nav-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
@@ -52,3 +63,33 @@ ul {
 .nav-adress:hover {
   color: #404bbf;
 }
+/* END Header */
+
+/* Hero section */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+color: #FFF;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.071; /* 107.143% */
+letter-spacing: 0.02em; 
+}
+
+.hero-button {
+color:#FFF ;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+}
+
+.hero-button:hover {
+ background-color: #404bbf;
+}
+
+/* END Hero section */
