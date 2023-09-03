@@ -3,3 +3,52 @@ body {
   color: #2e2f42;
   background-color: #fff;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: 'Raleway';sans-serif;
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.667; /* 116.667% */
+  letter-spacing: 0.03em; 
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; 
+    
+}
+
+.nav-link:hover {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.nav-link:active {
+  color: #404bbf;
+}
+
+.nav-adress {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em; 
+    }
+
+.nav-adress:hover {
+  color: #404bbf;
+}
