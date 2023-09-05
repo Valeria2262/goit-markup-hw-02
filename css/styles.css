@@ -145,20 +145,22 @@ button {
   text-transform: capitalize;
 }
 
+.our-team-background {
+  background-color: #fff;
+}
+
 .our-team-name {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  background-color: #fff;
 }
 
 .our-team-text {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  background-color: #fff;
 }
 
 /* END Our team Section */
@@ -208,7 +210,7 @@ button {
 }
 
 .logo-footer-accent {
-  color: #f4f4fde5;
+  color: #f4f4fd;
 }
 
 .text-footer {
